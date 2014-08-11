@@ -1,0 +1,70 @@
+*{
+	margin: 0;
+	padding: 0; 
+}
+
+/*----------------------------------------------------------*/
+body{
+	font-size: 12px;
+	font-family: arial, verdana;
+	background-image: url("../imagens/bg.jpg");
+	background-repeat: repeat-x;
+	
+}
+
+/*----------------Formatação dos tíulos do Site-------------------*/
+h1{
+	padding: 30px 0 40px 0;
+}
+
+/*-------------------Div que contém todo site----------------------*/
+div#geral{
+	margin: 0 auto;
+	width: 810px;	
+}
+
+/*------------------------Menú--------------------------*/
+nav ol{
+	margin-top: 40px;
+	list-style-type: none;
+	height: 40px;
+}
+
+nav ol li{
+	float: left;
+	margin-right: 10px;
+}
+
+nav ol li:hover{
+	border-bottom: 5px solid #00a1d9;
+}
+
+/*------------------Corpo do Site-----------------------*/
+article p{
+	line-height: 25px;
+	text-indent: 50px;
+}
+
+aside,article{
+	float: left;
+}
+
+article{
+	width: 600px;
+	margin-right: 25px;
+}
+
+aside{
+	width: 175px;
+}
+
+/*--------------------Rodapé----------------------------*/
+footer{
+	clear: both;
+	text-align: center;
+	margin-top: 40px;
+	padding: 15px;
+	background-image: url("../imagens/bg.jpg");
+	background-repeat: repeat-x;
+	color: white;
+}
